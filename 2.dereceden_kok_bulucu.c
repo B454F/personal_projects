@@ -1,5 +1,5 @@
 // https://github.com/B454F/personal_projects //
-// Delta = b²-4ac   ax²+bx+c  Delta > 0 ise 2 farklı kök , Delta = 0 ise çakışık tek kök , Delta < 0 ise Reel Kök bulunmuyor. // 
+// Delta = bÂ²-4ac   axÂ²+bx+c  Delta > 0 ise 2 farkli kÃ¶k , Delta = 0 ise cakisik tek kÃ¶k , Delta < 0 ise Reel KÃ¶k bulunmuyor. // 
 
 #include <stdio.h>
 #include <math.h>
@@ -24,7 +24,7 @@ int main(){
 			kok_delta = ( sqrt(-delta) ) / (2.0*a);
 			x = -0.5*b/a;
 			
-			printf("\nKarmasik kökler:");
+			printf("\nKarmasik kÃ¶kler:");
 			printf("\nx1 = %f + (%f)i", x, kok_delta);
 			printf("\nx2 = %f - (%f)i", x, kok_delta);
 		}
