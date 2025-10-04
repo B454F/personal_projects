@@ -45,6 +45,9 @@ namespace calculator
                     sonuc = sayii1 / sayii2;
                         Console.WriteLine("Bolme :" + sonuc);
                             break;
+                default :
+                     Console.WriteLine("Yanlıs Secim Yaptiniz!");
+                            break;
 
                 
                     
