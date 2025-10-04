@@ -1,0 +1,57 @@
+namespace calculator
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            float sonuc;
+            Console.WriteLine("Hesap Makinasın Hos Geldin Lütfen İlk Sayiyi Gir :");
+            string sayi1 = Console.ReadLine();
+                    float sayii1 = float.Parse(sayi1);
+
+            Console.WriteLine("Lütfen ikinci Sayiyi Gir");
+            string sayi2 = Console.ReadLine();
+                    float sayii2 = float.Parse(sayi2);
+                    
+
+            Console.WriteLine("****MENU****");
+            Console.WriteLine("[1] Toplama");
+            Console.WriteLine("[2] Cıkarma");
+            Console.WriteLine("[3] Carpma");
+            Console.WriteLine("[4] Bolme");
+
+            Console.WriteLine("Lütfen Seciminizi Yapınız");
+            string islem = Console.ReadLine();
+                int islemm = Int32.Parse(islem);
+
+            switch (islemm)
+            {
+                case 1:
+                    sonuc = sayii1 + sayii2;
+                        Console.WriteLine("Toplam :" + sonuc);
+                            break;
+                
+                case 2:
+                    sonuc = sayii1 - sayii2;
+                        Console.WriteLine("Cıkarma :" + sonuc);
+                            break;
+
+                case 3:
+                    sonuc = sayii1 * sayii2;
+                        Console.WriteLine("Carpma :" + sonuc);
+                            break;  
+
+                case 4:
+                    sonuc = sayii1 / sayii2;
+                        Console.WriteLine("Bolme :" + sonuc);
+                            break;
+
+                
+                    
+            }
+
+
+
+        }
+    }
+}
